@@ -1,0 +1,942 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 630
+  viewPortHeight: 497
+  horizontalOffset: 278
+  verticalOffset: -92
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 497
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_text_Black_87_v2_ct6mrg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_text_v2_bydnxv.png);"></div><div
+        class="c-text"><div class="c-title">Text Data</div><div
+        class="c-short-description">Data that we want to use for fine
+        tuning</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Text Data</div></div></div></div></div>'
+    id: Text Datav6FAU
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Text Data
+        shortDescription: Data that we want to use for fine tuning
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Text Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Text Data
+      editableName: Text Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Text Data
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_text_v2_bydnxv.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_text__044448_v2_em4fvj.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199390/sds_logos/Document_text_Black_87_v2_ct6mrg.png
+      color: "#4e3391"
+      controlText: Text Data
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 232
+    offsetY: 289
+    zIndex: 1
+    outEdges:
+      - Orthogonal ConnectorR84dK
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2A2A2A;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1727592924/Axolotl_Black_87_jcl483.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1727592924/Axolotl_c76bov_v2.png);"></div><div
+        class="c-text"><div class="c-title">Axolotl</div><div
+        class="c-short-description">Flexible yet easy-to-use fine-tuning
+        library</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Axolotl</div></div></div></div></div>'
+    id: Axolotls5RpG
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Axolotl
+        shortDescription: Flexible yet easy-to-use fine-tuning library
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Axolotl
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Axolotl
+      editableName: Axolotl
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Axolotl
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1727592924/Axolotl_c76bov_v2.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1727592924/Axolotl__044448_sryfsm.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1727592924/Axolotl_Black_87_jcl483.png
+      color: "#2A2A2A"
+      controlText: Axolotl
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 578
+    offsetY: 215
+    zIndex: 2
+    inEdges:
+      - Orthogonal ConnectorbTWBx
+      - Orthogonal ConnectorR84dK
+    outEdges:
+      - Straight ConnectormktbB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #0668E1;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png);"></div><div
+        class="c-text"><div class="c-title">Llama 3.2</div><div
+        class="c-short-description">Base model for fine-tuning</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Llama</div></div></div></div></div>'
+    id: LlamaZHd2S
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Llama
+        shortDescription: Base model for fine-tuning
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Llama
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Llama
+      editableName: Llama 3.2
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Llama
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta__044448_yehmnp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png
+      color: "#0668E1"
+      controlText: Llama
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 232
+    offsetY: 145
+    zIndex: 3
+    outEdges:
+      - Orthogonal ConnectorbTWBx
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #0668E1;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png);"></div><div
+        class="c-text"><div class="c-title">Llama 3.2 Fine-Tune</div><div
+        class="c-short-description">Fine-tuned Llama 3.2 model, using our own
+        data</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Llama</div></div></div></div></div>'
+    id: LlamaZHd2SsSOas
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Llama
+        shortDescription: Fine-tuned Llama 3.2 model, using our own data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Llama
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Llama
+      editableName: Llama 3.2 Fine-Tune
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Llama
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta__044448_yehmnp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png
+      color: "#0668E1"
+      controlText: Llama
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 908
+    offsetY: 215
+    zIndex: 6
+    inEdges:
+      - Straight ConnectormktbB
+    outEdges:
+      - Dashed Straight ConnectorSa0H0
+      - Dashed Orthogonal ConnectorO1Q59
+      - Straight ConnectorOv8hF
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Datasets</div></div><hr class="c-underrule"
+        style="background-color: #9E630B"></div>'
+    id: Hugging FaceJdVCr
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Datasets
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face__044448_dhzej2.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 46
+    offsetY: 314
+    zIndex: 8
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2071BD;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1703752382/sds_logos/vLLM_Black_87_l1qok1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1703752382/sds_logos/vLLM_dtv7qa.png);"></div><div
+        class="c-text"><div class="c-title">vLLM</div><div
+        class="c-short-description">vLLM is a swift, user-friendly library for
+        LLM inference and serving with top-notch throughput</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">vLLM</div></div></div></div></div>'
+    id: vLLMKwPvP
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: vLLM
+        shortDescription: vLLM is a swift, user-friendly library for LLM inference and
+          serving with top-notch throughput
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: vLLM
+      status: N/A
+      size: sm
+      nodeType: html
+      title: vLLM
+      editableName: vLLM
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: vLLM
+      category: 10
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1703752382/sds_logos/vLLM_dtv7qa.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1703752382/sds_logos/vLLM__044448_dkdtlj.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1703752382/sds_logos/vLLM_Black_87_l1qok1.png
+      color: "#2071BD"
+      controlText: vLLM
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 908
+    offsetY: 69
+    zIndex: 9
+    inEdges:
+      - Dashed Straight ConnectorSa0H0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Cloud
+        Run</div></div><hr class="c-underrule" style="background-color:
+        #3871e0"></div>'
+    id: Google Cloud RunAhsTX
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Run
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Run
+      editableName: Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Run
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 100
+    height: 124
+    offsetX: 1097
+    offsetY: 92
+    zIndex: 11
+    inEdges:
+      - Straight ConnectorJw9Rq
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);
+        border-radius: 50%"></div></div></div>'
+    id: DockertiWuv
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 10
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 730
+    offsetY: 31
+    zIndex: 0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #cc6300;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_Black_87_mxkdr2.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_sopopl.png);"></div><div
+        class="c-text"><div class="c-title">Gradio Testing</div><div
+        class="c-short-description">GUI-based evaluation/testing of the
+        fine-tuned model</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Gradio</div></div></div></div></div>'
+    id: GradioCliip
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Gradio
+        shortDescription: GUI-based evaluation/testing of the fine-tuned model
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Gradio
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Gradio
+      editableName: Gradio Testing
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Gradio
+      category: 10
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_sopopl.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio__044448_nl26fc.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_Black_87_mxkdr2.png
+      color: "#cc6300"
+      controlText: Gradio
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 1052
+    offsetY: 363
+    zIndex: 12
+    inEdges:
+      - Dashed Orthogonal ConnectorO1Q59
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Model
+        Hub</div></div><hr class="c-underrule" style="background-color:
+        #9E630B"></div>'
+    id: Hugging FaceAblNB
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Model Hub
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 3
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_rssxni.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face__044448_dhzej2.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1682279834/Hugging_face_Black_87_l3pdsp.png
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      latitude: null
+      longitude: null
+    width: 141.00000000000003
+    height: 124
+    offsetX: 1241.5
+    offsetY: 140
+    zIndex: 14
+    inEdges:
+      - Straight ConnectorOv8hF
+    outEdges:
+      - Straight ConnectorJw9Rq
+connectors:
+  - id: Orthogonal ConnectorbTWBx
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 382
+      y: 145
+    targetPoint:
+      x: 428
+      y: 215
+    sourceID: LlamaZHd2S
+    targetID: Axolotls5RpG
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Orthogonal ConnectorR84dK
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 382
+      y: 289
+    targetPoint:
+      x: 428
+      y: 215
+    sourceID: Text Datav6FAU
+    targetID: Axolotls5RpG
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Straight ConnectormktbB
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 728
+      y: 215
+    targetPoint:
+      x: 758
+      y: 215
+    sourceID: Axolotls5RpG
+    targetID: LlamaZHd2SsSOas
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight ConnectorSa0H0
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 908
+      y: 165
+    targetPoint:
+      x: 908
+      y: 119
+    sourceID: LlamaZHd2SsSOas
+    targetID: vLLMKwPvP
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Orthogonal ConnectorO1Q59
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 908
+      y: 265
+    targetPoint:
+      x: 1052
+      y: 313
+    sourceID: LlamaZHd2SsSOas
+    targetID: GradioCliip
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Straight ConnectorOv8hF
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 1058
+      y: 181.27
+    targetPoint:
+      x: 1171
+      y: 155.85
+    sourceID: LlamaZHd2SsSOas
+    targetID: Hugging FaceAblNB
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+  - id: Straight ConnectorJw9Rq
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 1171
+      y: 116.58
+    targetPoint:
+      x: 1147
+      y: 108.61
+    sourceID: Hugging FaceAblNB
+    targetID: Google Cloud RunAhsTX
+    addInfo:
+      viewConnector: 0
+    zIndex: 17
+selectedItems:
+  width: 0
+  height: 0

@@ -1,0 +1,3 @@
+[submodule "training-notebook"]
+	path = training-notebook
+	url = https://github.com/umairrkhn/Finetuning-Llama3-using-Axolotl
